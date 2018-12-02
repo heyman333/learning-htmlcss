@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image {
+  margin-right: 25px;
+  margin-top: 25px;
+}
