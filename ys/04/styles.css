@@ -1,0 +1,21 @@
+table,
+th,
+td {
+  border: 1px solid gray; 
+  border-collapse: collapse; 
+}
+
+th,
+td {
+  width: 120px; 
+  padding: 5px; 
+}
+
+th {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+caption {
+  font-size: 22px;
+}
