@@ -13,11 +13,13 @@
       </p>
       <hr />
     </div>
-    <div>
+    <form>
       <h3>개인정보</h3>
       <div class="innerContainer">
-        <span>이름 <input type="text"/></span><br /><span
-          >연락처 <input type="tel"
+        <span
+          ><label for="name">이름</label> <input type="text" id="name"/></span
+        ><br /><span>
+          <label for="tel">연락처</label> <input type="tel" id="tel"
         /></span>
       </div>
       <h3>지원분야</h3>
@@ -32,17 +34,21 @@
         <input
           type="radio"
           name="web development"
-          value="애플리케이션 개발 개발, 환경개선"
+          value="웹 애플리케이션 개발"
         />
-        웹 애플리케이션 개발 개발, 환경개선<br />
-        <input type="radio" name="motive" value="지원동기" /> Other
+        웹 애플리케이션 개발 개발,<br />
+        <input type="radio" name="motive" value="개발 환경개선" /> 개발 환경개선
       </div>
       <h3>지원동기</h3>
       <div class="innerContainer">
-        <textarea placeholder="입사 지원동기를 적어주세요"></textarea
+        <textarea
+          cols="60"
+          rows="5"
+          placeholder="입사 지원동기를 적어주세요"
+        ></textarea
         ><br /><button type="submit">접수하기</button
         ><button type="reset">다시쓰기</button>
       </div>
-    </div>
+    </form>
   </body>
 </html>
