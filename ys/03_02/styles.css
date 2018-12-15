@@ -1,0 +1,17 @@
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+input {
+  margin: 5px 0px 5px 0px;
+}
+
+textarea {
+  width: 300px;
+  height: 120px;
+}
+
+.innerContainer {
+  padding-left: 40px;
+}
