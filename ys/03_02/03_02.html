@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>프런트엔드 개발자 지원서</h1>
+      <p>
+        HTML, CSS, JavaScriptd에 대한 기술적 이해와 경험이 있는 분을 찾습니다.
+      </p>
+      <hr />
+    </div>
+    <form>
+      <h3>개인정보</h3>
+      <div class="innerContainer">
+        <span
+          ><label for="name">이름</label> <input type="text" id="name"/></span
+        ><br /><span>
+          <label for="tel">연락처</label> <input type="tel" id="tel"
+        /></span>
+      </div>
+      <h3>지원분야</h3>
+      <div class="innerContainer">
+        <input
+          type="radio"
+          name="feild"
+          value="웹 퍼블리싱"
+          checked="checked"
+        />
+        웹 퍼블리싱<br />
+        <input type="radio" name="feild" value="웹 애플리케이션 개발" /> 웹
+        애플리케이션 개발 개발,<br />
+        <input type="radio" name="feild" value="개발 환경개선" /> 개발 환경개선
+      </div>
+      <h3>지원동기</h3>
+      <div class="innerContainer">
+        <textarea
+          cols="60"
+          rows="5"
+          placeholder="입사 지원동기를 적어주세요"
+        ></textarea
+        ><br /><button type="submit">접수하기</button
+        ><button type="reset">다시쓰기</button>
+      </div>
+    </form>
+  </body>
+</html>
