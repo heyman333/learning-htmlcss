@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+  <title>표 스타일</title>
+  <style>
+    table, td{
+      border: 1px solid black;
+      border-collapse: collapse;
+      caption-side: bottom;
+    }
+    td{
+      padding: 10px;
+    }
+    .heading{
+      background-color: #eee;
+    }
+
+  </style>
+</head>
+<body>
+  <table border="1">
+    <caption>2015 국민 독서실태</caption>
+    <thead>
+      <tr>
+        <th class="heading">구분</th>
+        <th class="heading">성인</th>
+        <th class="heading">학생</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="heading">독서율</th>
+        <td>65.3%</td>
+        <td>94.9%</td>
+      </tr>
+      <tr>
+        <th class="heading">연평균 독서량</th>
+        <td>9.1권</td>
+        <td>29.8권</td>
+      </tr>
+      <tr>
+        <th class="heading">공공도서관 이용률</th>
+        <td>28.2%</td>
+        <td>64.9%</td>
+      </tr>      
+    </tbody>
+  </table>
+</body>
+</html>
