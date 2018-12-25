@@ -1,0 +1,12 @@
+.container {
+  background-color: #444;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 3px 2px 5px #000;
+}

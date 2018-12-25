@@ -1,0 +1,17 @@
+.container {
+  padding-left: 30px;
+}
+
+.subject {
+  font-weight: 700;
+  font-size: larger;
+  color: #ad3000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  line-height: 2;
+}

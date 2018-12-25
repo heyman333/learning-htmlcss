@@ -1,0 +1,28 @@
+.container {
+  width: 800px;
+  height: 500px;
+}
+
+.img {
+  float: left;
+  margin-right: 10px;
+}
+
+.desc {
+  padding: 10px;
+  font-family: "AppleGothic", "YuGo-Medium";
+}
+
+.accent {
+  font-weight: bold;
+  color: red;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
