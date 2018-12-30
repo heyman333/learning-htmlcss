@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  background: url(../../images/apple-bg.jpg) no-repeat;
+  width: 550px;
+  height: 450px;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 30px;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+}
